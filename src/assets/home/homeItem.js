@@ -2,6 +2,7 @@ import item_1 from "./item-1.webp";
 import item_2 from "./item-2.webp";
 import item_3 from "./item-3.webp";
 import item_4 from "./item-4.webp";
+import img_slider_2 from "./img-slider-2.webp";
 
 const items = [
     {
@@ -22,5 +23,5 @@ const items = [
     }
 ]
 
-export { items };
+export { items, img_slider_2 };
 

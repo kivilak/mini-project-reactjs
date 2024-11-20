@@ -9,7 +9,7 @@ function Header() {
         <div className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1 font-quicksand text-text-color font-bold">
           <div className="flex flex-col">
             <ul className="flex font-semibold lg:flex-row lg:mt-0 w-full justify-between">
-              <li><NavLink to="#" className={({ isActive }) => `block py-2.5 pr-4 pl-3 duration-200 ${isActive ? 'bg-nav-active' : 'bg-baker-yellow'} lg:hover:bg-nav-active`}>Home</NavLink></li>
+              <li><NavLink to={'/'} className={({ isActive }) => `block py-2.5 pr-4 pl-3 duration-200 ${isActive ? 'bg-nav-active' : 'bg-baker-yellow'} lg:hover:bg-nav-active`}>Home</NavLink></li>
               <li><NavLink to={'/product'} className={({ isActive }) => `block py-2.5 pr-4 pl-3 duration-200 ${isActive ? 'bg-nav-active' : 'bg-baker-yellow'} lg:hover:bg-nav-active`}>Product</NavLink></li>
               <li><NavLink to={'/contact'} className={({ isActive }) => `block py-2.5 pr-4 pl-3 duration-200 ${isActive ? 'bg-nav-active' : 'bg-baker-yellow'} lg:hover:bg-nav-active`}>Contact</NavLink></li>
               <li><NavLink to={'/about'} className={({ isActive }) => `block py-2.5 pr-4 pl-3 duration-200 ${isActive ? 'bg-nav-active' : 'bg-baker-yellow'} lg:hover:bg-nav-active`}>About</NavLink></li>

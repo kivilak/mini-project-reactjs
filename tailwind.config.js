@@ -20,7 +20,8 @@ export default {
         'baker-yellow': '#F4B411',
         'text-color': '#FFFAE7',
         'nav-active': '#9B7104',
-        'body-color': 'antiquewhite'
+        'body-color': 'antiquewhite',
+        'baker-orange': 'rgb(255, 94, 0)'
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
