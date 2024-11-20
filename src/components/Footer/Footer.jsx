@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="bg-blend-darken bg-black/50 bg-header w-full bg-cover bg-center flex flex-row justify-between">
+        <footer className="border border-t-[1rem] border-b-0 border-x-0 border-baker-yellow bg-blend-darken bg-black/50 bg-header w-full bg-cover bg-center flex flex-row justify-between">
             <div className="flex flex-col py-10 px-10">
                 <div className="text-text-color font-quicksand font-semibold flex flex-col">
                     <h4 className="text-baker-yellow font-bold">Our Shop</h4>
