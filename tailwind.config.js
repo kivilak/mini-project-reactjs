@@ -21,7 +21,9 @@ export default {
         'text-color': '#FFFAE7',
         'nav-active': '#9B7104',
         'body-color': 'antiquewhite',
-        'baker-orange': 'rgb(255, 94, 0)'
+        'baker-orange': 'rgb(255, 94, 0)',
+        'hoverAddBTN': 'darkgoldenrod',
+        'hoverRemoveBTN': 'rgb(190, 93, 36)'
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
@@ -33,6 +35,12 @@ export default {
       fontSize: {
         'header-text': '6vw',
       },
+      width: {
+        'card-width': '290px',
+      },
+      height: {
+        'card-height': '375px',
+      }
     },
   },
   plugins: [],

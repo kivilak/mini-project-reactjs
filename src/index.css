@@ -3,3 +3,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply 
+    justify-items-center
+    w-1/2
+    h-11
+    hover:bg-blend-color-burn;
+}
+
+.loadMoreBtn {
+    @apply
+    bg-baker-orange 
+    hover:bg-hoverRemoveBTN 
+    text-white 
+    font-quicksand 
+    font-bold 
+    w-36
+    rounded-full
+    justify-center
+    h-14
+    text-xl;
+}
