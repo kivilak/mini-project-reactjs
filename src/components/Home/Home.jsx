@@ -26,7 +26,7 @@ function Home() {
     return (
         <>
             <div>
-                <div className={`${slider[index]} hidden sm:block justify-items-center transition-opacity duration-1000 bg-cover bg-center xl:h-[38rem] lg:h-[30rem] md:h-[25rem] sm:h-[20rem] bg-blend-darken bg-black/40 text-baker-yellow font-lobster text-header-text tracking-wide`}>
+                <div className={`${slider[index]} hidden md:block justify-items-center transition-opacity duration-1000 bg-cover bg-center xl:h-[38rem] lg:h-[30rem] md:h-[25rem] sm:h-[20rem] bg-blend-darken bg-black/40 text-baker-yellow font-lobster text-header-text tracking-wide`}>
                     <div className="pt-20 w-3/5">
                         <h1 className="-z-10 text-left drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Fresh ..</h1>
                         <h1 className="-z-10 text-center drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Delicious ..</h1>
