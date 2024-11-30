@@ -24,16 +24,20 @@ function Home() {
 
 
     return (
-        <div>
-            <div className={`${slider[index]} transition-opacity duration-1000 pl-80 bg-cover bg-center h-[38rem] bg-blend-darken bg-black/40 text-baker-yellow font-lobster text-header-text tracking-wide`}>
-                <h1 className="pt-20 pl-20 drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Fresh ..</h1>
-                <h1 className="pl-60 drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Fast ..</h1>
-                <h1 className="pl-96 drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Delicious ..</h1>
+        <>
+            <div>
+                <div className={`${slider[index]} hidden sm:block justify-items-center transition-opacity duration-1000 bg-cover bg-center xl:h-[38rem] lg:h-[30rem] md:h-[25rem] sm:h-[20rem] bg-blend-darken bg-black/40 text-baker-yellow font-lobster text-header-text tracking-wide`}>
+                    <div className="pt-20 w-3/5">
+                        <h1 className="-z-10 text-left drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Fresh ..</h1>
+                        <h1 className="-z-10 text-center drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Delicious ..</h1>
+                        <h1 className="-z-10 text-right drop-shadow-[2px_4px_4px_rgba(0,0,0,0.8)]">Fast ..</h1>
+                    </div>
+                </div>
+                <div className="animation-plus bg-body-color grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center py-10">
+                    <HomeCard />
+                </div>
             </div>
-            <div className="bg-body-color grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-items-center py-10">
-                <HomeCard />
-            </div>
-        </div>
+        </>
     )
 }
 

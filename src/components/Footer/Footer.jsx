@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="border border-t-[1rem] border-b-0 border-x-0 border-baker-yellow bg-blend-darken bg-black/50 bg-header w-full bg-cover bg-center flex flex-row justify-between">
-            <div className="flex flex-col py-10 px-10">
+        <footer className="grid md:grid-cols-2 sm:grid-cols-1 border border-t-[1rem] border-b-0 border-x-0 border-baker-yellow bg-blend-darken bg-black/50 bg-header w-full bg-cover bg-center justify-between">
+            <div className="py-10 px-10">
                 <div className="text-text-color font-quicksand font-semibold flex flex-col">
                     <h4 className="text-baker-yellow font-bold">Our Shop</h4>
                     <Link to="#">How to Order</Link>
@@ -19,7 +19,7 @@ function Footer() {
                     <Link to="#">History</Link>
                 </div>
             </div>
-            <div className="flex flex-col py-10 pr-10">
+            <div className="py-10 md:pr-10 md:justify-items-end sm:pt-0 sm:px-10 px-10">
                 <div className="text-text-color font-quicksand font-semibold flex flex-col">
                     <h4 className="text-baker-yellow font-bold">Contact Us</h4>
                     <span>Email: royalbakers@gmail.com</span>
