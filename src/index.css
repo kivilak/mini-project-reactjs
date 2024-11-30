@@ -25,3 +25,8 @@
     h-14
     text-xl;
 }
+
+.nav-li {
+    @apply
+    h-20
+}
