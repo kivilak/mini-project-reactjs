@@ -19,7 +19,7 @@ function Footer() {
                     <Link to="#">History</Link>
                 </div>
             </div>
-            <div className="py-10 md:pr-10 md:justify-items-end sm:pt-0 sm:px-10 px-10">
+            <div className="pb-10 md:pt-10 md:pr-10 md:justify-items-end sm:pt-0 sm:px-10 px-10">
                 <div className="text-text-color font-quicksand font-semibold flex flex-col">
                     <h4 className="text-baker-yellow font-bold">Contact Us</h4>
                     <span>Email: royalbakers@gmail.com</span>
