@@ -20,7 +20,7 @@ function Login() {
                     <br />
                 </div>
                 <div className="justify-center">
-                    <Button />
+                    <Button name='Login' />
                 </div>
                 <div className="py-10">
                     <h1 className="text-baker-yellow font-semibold">or Continue with</h1>
